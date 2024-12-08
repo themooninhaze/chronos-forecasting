@@ -12,7 +12,9 @@ from chronos import (
     ChronosPipeline,
     MeanScaleUniformBins,
 )
+
 from test.util import validate_tensor
+
 
 
 def test_base_chronos_pipeline_loads_from_huggingface():
